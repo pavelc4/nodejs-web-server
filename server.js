@@ -4,9 +4,6 @@ const http = require('http');
 
 const requestListener = (request, response) => {
     const { method, url } = request;
-    // response.statusCode =404;
-    //
-    // response.statusMessage = 'usr not found';
 
     if (url === '/') {
         if (method === 'GET') {
